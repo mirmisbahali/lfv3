@@ -6,9 +6,11 @@
 
 body {
     font-family: "Lato", sans-serif;
-    width: 2551px;
+    width: 2551px;    
+}
+
+#wrapper {
     padding: 112px 138px 0 138px;
-    
 }
 
 ul {
@@ -56,7 +58,6 @@ p {
 #from_and_co {
     display: flex;
     justify-content: space-between;
-    /* width: px; */
     
 }
 
@@ -93,6 +94,7 @@ p {
 /* =========================== */
 #invoice_no {
     color: #2DA2C5;
+    text-align: right;
 }
 
 #invoice_no h1 {
@@ -156,27 +158,122 @@ p {
 /* Bills table start */
 /* =========================== */
 #bill_table_section {
-    margin-top: 241px;
+    margin: 242px 0 0 0;
 }
 
 #table {
     display: flex;
     justify-content: space-between;
-    margin: 53px 0 242px 0;
+    margin-top: 52px;
+}
+
+#table ul li h1 {
+    font-size: 42px;
+    font-weight: 900;
+    border-bottom: 1px solid #2DA2C5;
+}
+
+#table ul li {
+    font-size: 45px;
     color: #2DA2C5;
 }
 
-#table h1 {
-    font-size: 42px;
-    font-weight: 900;
+
+#table_left_col {
+    width: 968px;
 }
 
-#table p {
-    font-size: 49px;
+#table_right_col {
+    width: 1424px;
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
+    flex-wrap: wrap;
+    align-items: flex-end;
 }
 
-#t
-
+#table_right_col li {
+    width: 255px;
+    margin-left: 83px;
+    margin-bottom: 100px;
+    word-wrap: break-word;
+}
 /* =========================== */
 /* Bills table End */
 /* =========================== */
+
+
+/* =========================== */
+/* Total Section Start */
+/* =========================== */
+#total_section {
+    display: flex;
+    justify-content: flex-end;
+    color: #3ECF8E;
+    margin-bottom: 52px;
+    
+}
+
+#total_section h1 {
+    font-size: 83px;
+    font-weight: 900;
+    margin-left: 244px;
+}
+/* =========================== */
+/* Total Section End */
+/* =========================== */
+
+footer {
+    background: #F6F9FD;
+    padding: 125px 138px 92px 138px;
+    margin-top: 142px;
+
+}
+
+#footer_container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 172px;
+}
+
+/* =========================== */
+/* If you Section Start */
+/* =========================== */
+#if_you_section {
+    width: 525px;
+    justify-self: flex-start;
+}
+/* =========================== */
+/* If you Section End */
+/* =========================== */
+
+#wire_instructions_section {
+    width: 581px;
+}
+
+#routing {
+    margin-top: 75px;
+}
+
+#routing p {
+    display: flex;
+    justify-content: space-between;
+}
+
+#payments_section {
+    width: 962px;
+    justify-self: flex-end;
+}
+
+#payments_section p {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: #6B7C93;
+    font-size: 37px;
+}

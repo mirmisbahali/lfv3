@@ -10,114 +10,187 @@
 </head>
 
 <body>
-  <div id="logo">
-    <img src="./logo-leadfeeder-rgb-primary.png" alt="leadfeeder" />
-  </div>
-  <div class="container">
-    <div id="container_top">
-      <div id="from_and_co">
+  <div id="wrapper">
+    <div id="logo">
+      <img src="./logo-leadfeeder-rgb-primary.png" alt="leadfeeder" />
+    </div>
+    <div class="container">
+      <div id="container_top">
+        <div id="from_and_co">
 
-        <!--------- From Section Start ------------->
-        <div id="from_section">
-          <h1 class="bold_blue">From</h1>
+          <!--------- From Section Start ------------->
+          <div id="from_section">
+            <h1 class="bold_blue">From</h1>
+            <p>Company Name</p>
+            <p>Street Name 11</p>
+            <p>00000 Helsinki</p>
+            <p>COUNTRY</p>
+            <p>TAX NO: PL0000000000</p>
+          </div>
+          <!--------- From Section End ------------->
+
+          <!--------- C/O Section Start ------------->
+          <div id="co_section">
+            <h1 class="bold_blue">C/O</h1>
+            <p>Company Name</p>
+            <p>Street Name 11</p>
+            <p>00000 Helsinki</p>
+            <p>COUNTRY</p>
+            <p>TAX NO: PL0000000000</p>
+          </div>
+          <!--------- C/O Section End ------------->
+        </div>
+
+        <!--------- Invoice Number Section Start ------------->
+        <div id="invoice_no_section">
+          <div id="invoice_no">
+            <h1>INVOICE</h1>
+            <p>No 121020</p>
+          </div>
+        </div>
+        <!--------- Invoice Number Section End ------------->
+
+      </div>
+
+
+
+      <div id="container_bottom">
+
+        <!--------- Bill to Section Start ------------->
+        <div id="bill_to_section">
+          <h1 class="bold_blue">Bill to:</h1>
           <p>Company Name</p>
           <p>Street Name 11</p>
           <p>00000 Helsinki</p>
           <p>COUNTRY</p>
           <p>TAX NO: PL0000000000</p>
+          <p>Customer Name</p>
         </div>
-        <!--------- From Section End ------------->
+        <!--------- Bill to Section End ------------->
 
-        <!--------- C/O Section Start ------------->
-        <div id="co_section">
-          <h1 class="bold_blue">C/O</h1>
-          <p>Company Name</p>
-          <p>Street Name 11</p>
-          <p>00000 Helsinki</p>
-          <p>COUNTRY</p>
-          <p>TAX NO: PL0000000000</p>
+        <!--------- Invoice Items Section Start ------------->
+        <div id="invoice_items">
+          <p><span class="bold_blue invoice_items_name">Placeholder Name 1</span><span
+              class="invoice_items_type">Placeholder Type 1234567890</span></p>
+          <p><span class="bold_blue invoice_items_name">Placeholder Name 2</span><span
+              class="invoice_items_type">Placeholder Type
+              1234567890</span></p>
+          <p><span class="bold_blue invoice_items_name">Placeholder Name 3</span><span
+              class="invoice_items_type">Placeholder Type 1234567890</span></p>
+          <p><span class="bold_blue invoice_items_name">Placeholder Name 4</span><span
+              class="invoice_items_type">Placeholder Type 1234567890</span></p>
+          <p><span class="bold_blue invoice_items_name">Placeholder Name 5</span><span
+              class="invoice_items_type">Placeholder Type
+              1234567890</span></p>
+          <p><span class="bold_blue invoice_items_name">Placeholder Name 6</span><span
+              class="invoice_items_type">Placeholder Type 1234567890</span></p>
+          <p><span class="bold_blue invoice_items_name">Placeholder Name 7</span><span
+              class="invoice_items_type">Placeholder Type 1234567890</span></p>
+          <p><span class="bold_blue invoice_items_name">Placeholder Name 8</span><span
+              class="invoice_items_type">Placeholder Type 1234567890</span></p>
+          <p><span class="bold_blue invoice_items_name">Placeholder Name 9</span><span
+              class="invoice_items_type">Placeholder Type 1234567890</span></p>
         </div>
-        <!--------- C/O Section End ------------->
+        <!--------- Invoice Items Section End ------------->
+
       </div>
-
-      <!--------- Invoice Number Section Start ------------->
-      <div id="invoice_no_section">
-        <div id="invoice_no">
-          <h1>INVOICE</h1>
-          <p>No 121020</p>
-        </div>
-      </div>
-      <!--------- Invoice Number Section End ------------->
-
     </div>
 
+    <!--------- Bills Table Section Start ------------->
+    <div id="bill_table_section">
+      <h1 class="bold_blue">Reverse Charge VAT</h1>
+      <div id="table">
+        <ul id="table_left_col">
+          <li>
+            <h1>Name Left</h1>
+            <p>Leadfeeder Premium Product</p>
+          </li>
+        </ul>
+        <ul id="table_right_col">
+          <li>
+            <h1>Name Right</h1>
+            <p>0000,00</p>
+          </li>
+          <li>
+            <h1>Name Right</h1>
+            <p>0000,00</p>
+          </li>
+          <li>
+            <h1>Name Right</h1>
+            <p>0000,00</p>
+          </li>
+          <li>
+            <h1>Name Right</h1>
+            <p>0000,00</p>
+          </li>
+          <li>
+            <h1>Name Right</h1>
+            <p>0000,00</p>
+          </li>
+          <li>
+            <h1>Name Right</h1>
+            <p>0000,00</p>
+          </li>
+          <li>
+            <h1>Name Right</h1>
+            <p>0000,00</p>
+          </li>
+          <li>
+            <h1>Name Right</h1>
+            <p>0000,00</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--------- Bills Table Section End ------------->
 
+  </div>
+  <footer>
+    <!--------- Total Section Start ------------->
+    <div id="total_section">
+      <h1>TOTAL:</h1>
+      <h1>633,00 EUR</h1>
+    </div>
+    <!--------- Total Section Start ------------->
 
-    <div id="container_bottom">
-
-      <!--------- Bill to Section Start ------------->
-      <div id="bill_to_section">
-        <h1 class="bold_blue">Bill to:</h1>
+    <div id="footer_container">
+      <div id="if_you_section">
+        <p class="bold_blue">If you wish to pay by check, please remit your check to:</p>
         <p>Company Name</p>
-        <p>Street Name 11</p>
-        <p>00000 Helsinki</p>
-        <p>COUNTRY</p>
-        <p>TAX NO: PL0000000000</p>
-        <p>Customer Name</p>
+        <p>Address Street Name 1</p>
+        <p>Address Street Name 2</p>
+        <p>000-000-0000</p>
+        <p>finance@leadfeeder.com</p>
       </div>
-      <!--------- Bill to Section End ------------->
+      <div id="wire_instructions_section">
+        <div>
+          <p class="bold_blue">Wire and ACH Instructions</p>
+          <p>SILICON VALLEY BANK</p>
+          <p>Address Street Name 1</p>
+          <p>Santa Clara, CA 95054, USA</p>
+        </div>
+        <div id="routing">
+          <p><span class="bold_blue">Routing#:</span><span>121140399</span></p>
+          <p><span class="bold_blue">SWIFT:</span><span>SVBKUS65</span></p>
+          <p>Leadfeeder Inc.</p>
+          <p><span class="bold_blue">Account#:</span><span>3302171116</span></p>
 
-      <!--------- Invoice Items Section Start ------------->
-      <div id="invoice_items">
-        <p><span class="bold_blue invoice_items_name">Placeholder Name 1</span><span
-            class="invoice_items_type">Placeholder Type 1234567890</span></p>
-        <p><span class="bold_blue invoice_items_name">Placeholder Name 2</span><span
-            class="invoice_items_type">Placeholder Type
-            1234567890</span></p>
-        <p><span class="bold_blue invoice_items_name">Placeholder Name 3</span><span
-            class="invoice_items_type">Placeholder Type 1234567890</span></p>
-        <p><span class="bold_blue invoice_items_name">Placeholder Name 4</span><span
-            class="invoice_items_type">Placeholder Type 1234567890</span></p>
-        <p><span class="bold_blue invoice_items_name">Placeholder Name 5</span><span
-            class="invoice_items_type">Placeholder Type
-            1234567890</span></p>
-        <p><span class="bold_blue invoice_items_name">Placeholder Name 6</span><span
-            class="invoice_items_type">Placeholder Type 1234567890</span></p>
-        <p><span class="bold_blue invoice_items_name">Placeholder Name 7</span><span
-            class="invoice_items_type">Placeholder Type 1234567890</span></p>
-        <p><span class="bold_blue invoice_items_name">Placeholder Name 8</span><span
-            class="invoice_items_type">Placeholder Type 1234567890</span></p>
-        <p><span class="bold_blue invoice_items_name">Placeholder Name 9</span><span
-            class="invoice_items_type">Placeholder Type 1234567890</span></p>
+        </div>
       </div>
-      <!--------- Invoice Items Section End ------------->
+      <div id="payments_section">
+        <p><span class="bold_blue">Due Date</span><span>21/12/2020</span></p>
+        <p><span class="bold_blue">IBAN</span><span>FI 21 123456 00000785</span></p>
+        <p><span class="bold_blue">BIC</span><span>AFRLSADSS</span></p>
+        <p><span class="bold_blue">Payment Reference</span><span>RFXX 1234 561</span></p>
 
+      </div>
     </div>
-  </div>
-
-  <!--------- Bills Table Section Start ------------->
-  <div id="bill_table_section">
-    <h1 class="bold_blue">Reverse Charge VAT</h1>
-    <div id="table">
-      <ul id="left_col">
-        <li>
-          <h1>Name Left</h1>
-          <p>Leadfeeder Premium Product</p>
-        </li>
-      </ul>
-      <ul id="right_col">
-        <li>
-          <h1>Name Right</h1>
-          <p>0000,00</p>
-        </li>
-        <li>
-          <h1>Name Right</h1>
-          <p>0000,00</p>
-        </li>
-      </ul>
+    <div id="contact_section">
+      <p>+358 347-687-8530</p>
+      <p>www.leadfeeder.com</p>
+      <p>finance@leadfeeder.com</p>
     </div>
-  </div>
-  <!--------- Bills Table Section End ------------->
+  </footer>
 
 </body>
 
