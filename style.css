@@ -247,6 +247,10 @@ footer {
 /* If you Section End */
 /* =========================== */
 
+
+/* =========================== */
+/* Wire and ACH Instructions Section Start */
+/* =========================== */
 #wire_instructions_section {
     width: 581px;
 }
@@ -259,7 +263,14 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+/* =========================== */
+/* Wire and ACH Instructions Section End */
+/* =========================== */
 
+
+/* =========================== */
+/* Payments Section Start */
+/* =========================== */
 #payments_section {
     width: 962px;
     justify-self: flex-end;
@@ -269,7 +280,14 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+/* =========================== */
+/* Payments Section End */
+/* =========================== */
 
+
+/* =========================== */
+/* Contact Section Start */
+/* =========================== */
 #contact_section {
     display: flex;
     justify-content: space-between;
@@ -277,3 +295,6 @@ footer {
     color: #6B7C93;
     font-size: 37px;
 }
+/* =========================== */
+/* Contact Section End */
+/* =========================== */
