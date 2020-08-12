@@ -20,6 +20,7 @@ ul {
 p {
     font-size: 45px;
     line-height: 70px;
+    margin-bottom: 9px;
 }
 
 
@@ -167,6 +168,10 @@ p {
     margin-top: 52px;
 }
 
+#table p {
+    padding: 5.5px 0;
+}
+
 #table ul li h1 {
     font-size: 42px;
     font-weight: 900;
@@ -242,6 +247,7 @@ footer {
 #if_you_section {
     width: 525px;
     justify-self: flex-start;
+    word-wrap: break-word;
 }
 /* =========================== */
 /* If you Section End */
@@ -253,15 +259,24 @@ footer {
 /* =========================== */
 #wire_instructions_section {
     width: 581px;
+    word-wrap: break-word;
+
 }
 
 #routing {
     margin-top: 75px;
+    word-wrap: break-word;
 }
 
 #routing p {
     display: flex;
     justify-content: space-between;
+    word-wrap: break-word;
+}
+
+#routing p span {
+    width: 50%;
+    word-wrap: break-word;
 }
 /* =========================== */
 /* Wire and ACH Instructions Section End */
@@ -280,6 +295,18 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+
+#payments_section p span:first-child {
+    width: 40%;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+#payments_section p span:last-child {
+    width: 60%;
+    text-align: right;
+    word-wrap: break-word;
+}
 /* =========================== */
 /* Payments Section End */
 /* =========================== */
@@ -293,6 +320,14 @@ footer {
     justify-content: space-between;
     align-items: flex-end;
     color: #6B7C93;
+
+}
+
+#contact_section > * {
+    margin: 0;
+    padding: 0;
+    height: 0;
+    line-height: 0;
     font-size: 37px;
 }
 /* =========================== */
