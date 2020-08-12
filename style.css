@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    width: 2551px;
+    padding: 112px 138px 0 138px;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    font-size: 45px;
+    line-height: 70px;
+}
+
+
+/* =========================== */
+/* Blue Bold font style */
+/* =========================== */
+.bold_blue {
+    color: #6B7C93;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 50px;
+}
+
+
+#logo {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 71px;
+}
+
+#container_top {
+    display: flex;
+    justify-content: space-between;
+}
+
+#container_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#from_and_co {
+    display: flex;
+    justify-content: space-between;
+    /* width: px; */
+    
+}
+
+
+
+/* =========================== */
+/* From Section Start */
+/* =========================== */
+#from_section {
+    width: 499px;
+    margin-right: 54px;
+    word-wrap: break-word;
+}
+/* =========================== */
+/* From Section End */
+/* =========================== */
+
+
+/* =========================== */
+/* Co Section Start */
+/* =========================== */
+#co_section {
+    width: 499px;
+    word-wrap: break-word;
+}
+/* =========================== */
+/* Co Section End */
+/* =========================== */
+
+
+
+/* =========================== */
+/* Invoice Number Start */
+/* =========================== */
+#invoice_no {
+    color: #2DA2C5;
+}
+
+#invoice_no h1 {
+    font-size: 125px;
+    font-weight: 900;
+}
+
+#invoice_no p {
+    font-size: 62px;
+    font-weight: 900;
+}
+/* =========================== */
+/* Invoice Number End */
+/* =========================== */
+
+
+/* =========================== */
+/* Bills to start */
+/* =========================== */
+#bill_to_section {
+    margin-top: 135px;
+    width: 499px;
+    margin-right: 54px;
+    word-wrap: break-word;
+}
+/* =========================== */
+/* Bills to end */
+/* =========================== */
+
+/* =========================== */
+/* Invoice items start */
+/* =========================== */
+#invoice_items {
+    width: 1064px;
+}
+
+
+#invoice_items p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 9px;
+}
+
+#invoice_items .invoice_items_name {
+    width: 384px;
+    word-wrap: break-word;
+}
+
+#invoice_items .invoice_items_type {
+    width: 608px;
+    word-wrap: break-word;
+}
+/* =========================== */
+/* Invoice items End */
+/* =========================== */
+
+
+
+/* =========================== */
+/* Bills table start */
+/* =========================== */
+#bill_table_section {
+    margin-top: 241px;
+}
+
+#table {
+    display: flex;
+    justify-content: space-between;
+    margin: 53px 0 242px 0;
+    color: #2DA2C5;
+}
+
+#table h1 {
+    font-size: 42px;
+    font-weight: 900;
+}
+
+#table p {
+    font-size: 49px;
+}
+
+#t
+
+/* =========================== */
+/* Bills table End */
+/* =========================== */
